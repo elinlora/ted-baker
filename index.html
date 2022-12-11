@@ -36,7 +36,34 @@
   }
   /* ======> Mobile <====== */
   @media only screen and (max-width: 599.8px) {
-    
+    .view {
+      display: none !important;
+    }
+    .logo {
+      display: unset !important;
+    }
+    .desktop-nav {
+      display: none !important;
+    }
+    .mobile-nav {
+      display: unset !important;
+    }
+    .prod-title-pad {
+      padding-top: 55px !important;
+    }
+    .two-col {
+      padding: 0 20px !important;
+    }
+    .column {
+      max-width: unset !important;
+    }
+    .prod-pad {
+      padding: 20px !important;
+    }
+    .prod-img {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
   }
   </style>
 </head>
@@ -55,8 +82,21 @@
                 <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
                   <tbody>
                     <tr>
-                      <td align="center">
-                        <p style="font-family: Nunito, sans-serif; font-size: 12px; font-weight: 300; text-transform: uppercase; letter-spacing: .3px; color: #555555;">no ordinary designer label &nbsp; <span>|</span> &nbsp; <a href="#" style="font-weight: 600;color: #555555;">view online</a></p>
+                      <td>
+                        <table cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+                          <tr>
+                            <td align="center">
+                              <p class="view" style="font-family: Nunito, sans-serif; font-size: 10px; font-weight: 300; text-transform: uppercase; letter-spacing: .3px; color: #555555;">no ordinary designer label &nbsp; <span>|</span> &nbsp; <a href="#" style="font-weight: 600;color: #555555;">view online</a></p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center">
+                              <a href="#">
+                                <img class="logo" src="https://i.ibb.co/0sYqQnH/ted-baker-london-logo.png" alt="Ted Baker London" style="display: none;">
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
                       </td>
                     </tr>
                   </tbody>
@@ -88,7 +128,8 @@
                           <tbody>
                             <tr>
                               <td>
-                                <table width="33.33%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="left">
+                                <!-- Desktop Navigation -->
+                                <table class="desktop-nav" width="25%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="left">
                                   <tbody>
                                     <tr>
                                       <td align="center" style="padding: 10px 0;">
@@ -97,7 +138,7 @@
                                     </tr>
                                   </tbody>
                                 </table>
-                                <table width="33.33%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="left">
+                                <table class="desktop-nav" width="50%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="left">
                                   <tbody>
                                     <tr>
                                       <td align="center">
@@ -108,7 +149,7 @@
                                     </tr>
                                   </tbody>
                                 </table>
-                                <table width="33.33%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="left">
+                                <table class="desktop-nav" width="25%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="left">
                                   <tbody>
                                     <tr>
                                       <td align="center" style="padding: 10px 0;">
@@ -117,6 +158,21 @@
                                     </tr>
                                   </tbody>
                                 </table>
+                                <!-- Desktop Navigation -->
+                                <!-- Mobile Navigation -->
+                                <table class="mobile-nav" width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="left" style="display: none;">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" style="padding: 10px 0;" width="300">
+                                        <a href="#" style="font-family: Nunito, sans-serif; font-size: 14px; letter-spacing: 1px; color: #555555;">Men</a>
+                                      </td>
+                                      <td align="center" style="padding: 10px 0;" width="300">
+                                        <a href="#" style="font-family: Nunito, sans-serif; font-size: 14px; letter-spacing: 1px; color: #555555;">Women</a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <!-- Mobile Navigation -->
                               </td>
                             </tr>
                           </tbody>
@@ -163,7 +219,7 @@
             <!-- ======> / Hero CTA <====== -->
             <!-- ======> Be Inspired <====== -->
             <tr>
-              <td bgcolor="#ffffff" style="padding-top: 20px;">
+              <td class="prod-title-pad" bgcolor="#ffffff" style="padding-top: 33px;">
                 <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
                   <tbody>
                     <tr>
@@ -184,6 +240,170 @@
               </td>
             </tr>
             <!-- ======> / Be Inspired <====== -->
+            <!-- ======> 2 Column Products (1) <====== -->
+            <tr>
+              <td bgcolor="#ffffff" style="padding: 30px 0;">
+                <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+                  <tbody>
+                    <tr>
+                      <td class="two-col" style="padding: 0 10px; text-align: center; font-size: 0;">
+                        <table class="column" width="" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center" style="display: inline-block; width: 100%; max-width: 290px; vertical-align: top;">
+                          <tbody>
+                            <tr>
+                              <td class="prod-pad" style="padding: 10px;">
+                                <table class="content" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center">
+                                        <a href="#">
+                                          <img class="prod-img" src="https://i.ibb.co/6Bp4dvL/coat.png" alt="Coat" style="width: 100%; max-width: 275px;">
+                                        </a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="padding-top: 15px;">
+                                        <h3 style="font-family: Nunito, sans-serif; font-size: 18px; font-weight: 300; text-transform: uppercase; letter-spacing: 1px; color: #212121;">Get Your Coat</h3>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="padding-top: 15px;">
+                                        <p style="font-family: Nunito, sans-serif; font-size: 14px; font-weight: 300; color: #212121;">Set your sartorial thermometer for stylish with Ted’s cozy collection of coats. From smart wool designs to everyday parkas, wrap yourself in style with Ted.</p>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="padding-top: 15px;">
+                                        <a href="#" style="font-family: Nunito, sans-serif; font-size: 15px; font-weight: 700; color: #212121; border-bottom: 2px solid #212121;">Shop the Edit</a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table class="column" width="" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center" style="display: inline-block; width: 100%; max-width: 290px; vertical-align: top;">
+                          <tbody>
+                            <tr>
+                              <td class="prod-pad" style="padding: 10px">
+                                <table class="content" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center">
+                                        <a href="#">
+                                          <img class="prod-img" src="https://i.ibb.co/dLmwvJg/party.png" alt="Party Wear" style="width: 100%; max-width: 275px;">
+                                        </a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="padding-top: 15px;">
+                                        <h3 style="font-family: Nunito, sans-serif; font-size: 18px; font-weight: 300; text-transform: uppercase; letter-spacing: 1px; color: #212121;">Party Perfection</h3>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="padding-top: 15px;">
+                                        <p style="font-family: Nunito, sans-serif; font-size: 14px; font-weight: 300; color: #212121;">RSVP yes to Ted’s perfect partywear this season. From suave suits to exquisite accessories, take on the dancefloor in style with this show-stopping selection.</p>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="padding-top: 15px;">
+                                        <a href="#" style="font-family: Nunito, sans-serif; font-size: 15px; font-weight: 700; color: #212121; border-bottom: 2px solid #212121;">Shop the Edit</a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <!-- ======> / 2 Column Products (1) <====== -->
+            <!-- ======> 2 Column Products (2) <====== -->
+            <tr>
+              <td bgcolor="#ffffff" style="padding: 30px 0;">
+                <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+                  <tbody>
+                    <tr>
+                      <td class="two-col" style="padding: 0 10px; text-align: center; font-size: 0;">
+                        <table class="column" width="" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center" style="display: inline-block; width: 100%; max-width: 290px; vertical-align: top;">
+                          <tbody>
+                            <tr>
+                              <td class="prod-pad" style="padding: 10px;">
+                                <table class="content" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center">
+                                        <a href="#">
+                                          <img class="prod-img" src="https://i.ibb.co/6cQrn4J/work.png" alt="Work Wear" style="width: 100%; max-width: 275px;">
+                                        </a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="padding-top: 15px;">
+                                        <h3 style="font-family: Nunito, sans-serif; font-size: 18px; font-weight: 300; text-transform: uppercase; letter-spacing: 1px; color: #212121;">Work It</h3>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="padding-top: 15px;">
+                                        <p style="font-family: Nunito, sans-serif; font-size: 14px; font-weight: 300; color: #212121;">Ted’s in pursuit of the perfect professional wardrobe, and he’s taking you with him…</p>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="padding-top: 15px;">
+                                        <a href="#" style="font-family: Nunito, sans-serif; font-size: 15px; font-weight: 700; color: #212121; border-bottom: 2px solid #212121;">Shop the Edit</a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table class="column" width="" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center" style="display: inline-block; width: 100%; max-width: 290px; vertical-align: top;">
+                          <tbody>
+                            <tr>
+                              <td class="prod-pad" style="padding: 10px">
+                                <table class="content" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center">
+                                        <a href="#">
+                                          <img class="prod-img" src="https://i.ibb.co/xJ5xFhY/bag.png" alt="Bag" style="width: 100%; max-width: 275px;">
+                                        </a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="padding-top: 15px;">
+                                        <h3 style="font-family: Nunito, sans-serif; font-size: 18px; font-weight: 300; text-transform: uppercase; letter-spacing: 1px; color: #212121;">Get Carried Away</h3>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="padding-top: 15px;">
+                                        <p style="font-family: Nunito, sans-serif; font-size: 14px; font-weight: 300; color: #212121;">Take on your daily commute or weekend away in effortless style with Ted’s bags for men.</p>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="left" style="padding-top: 15px;">
+                                        <a href="#" style="font-family: Nunito, sans-serif; font-size: 15px; font-weight: 700; color: #212121; border-bottom: 2px solid #212121;">Shop the Edit</a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <!-- ======> / 2 Column Products (2) <====== -->
           </table>
           <!-- / Main Table -->
           </td>
